@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+        uri: mongodb://localhost:27017/chat
+        database: chat
+        host: localhost
+        port: 27017
+  rsocket:
+    server:
+      mapping-path: /rsocket
+      transport: websocket
